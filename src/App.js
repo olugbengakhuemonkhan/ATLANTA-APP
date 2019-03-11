@@ -6,6 +6,7 @@ import About from './About';
 import Images from './Images';
 import MayorMessage from './MayorMessage'
 import Atlanta from './Atlanta'
+import Movies from './Movies'
 
 import Home from './Home';
 
@@ -28,6 +29,7 @@ class App extends Component {
               <Route path="/" component={Home}/>
               <Route path="/about" component={About} />
               <Route path="/images" component={Images} />
+              <Route path="/movies" component={Movies} />
               <Route path="/mayormessage" component={MayorMessage} />
               <Route path="/atlanta" component={Atlanta} />
           </div>

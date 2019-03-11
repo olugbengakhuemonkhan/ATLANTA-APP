@@ -28,6 +28,7 @@ class BootstrapNavBar extends Component{
 						<span className={this.state.activeLink=='/atlanta' ? 'active' : ""}>Weather</span></Link></li>
 		      	<li><Link onClick={()=>{this.setActiveLink('/mayormessage')}} to="/mayormessage">Mayor Message</Link></li>
 		      	<li><Link onClick={()=>{this.setActiveLink('/images')}} to="/images">Images</Link></li>
+						<li><Link onClick={()=>{this.setActiveLink('/movies')}} to="/movies">Movies</Link></li>
 		      	<li><Link onClick={()=>{this.setActiveLink('/about')}} to="/about">About</Link></li>
 		    </ul>
 		  </div>
